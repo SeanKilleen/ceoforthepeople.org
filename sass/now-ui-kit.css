@@ -1,8 +1,12 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700");
+html {
+  scroll-behavior: smooth;
+}
+
 /*!
 * Based on Bootstrap v4.0.0 (https://getbootstrap.com) 
 */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700");
 /*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
