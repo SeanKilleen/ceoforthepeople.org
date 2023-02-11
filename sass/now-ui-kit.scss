@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /*!
 * Based on Bootstrap v4.0.0 (https://getbootstrap.com) 
 */
@@ -59,7 +63,7 @@ $font-size-base: 					0.875rem;
 $lead-font-size: 					1.30rem;
 $small-font-size: 				70%;
 
-$h1-font-size: 						3.5em;
+$h1-font-size: 						3em;
 $h2-font-size: 						2.5em;
 $h3-font-size: 						2em;
 $h4-font-size: 						1.714em;
@@ -760,10 +764,14 @@ html,body {
 
 
 .cover {
-	min-height:125%;
-  
-  .container {
-    height: 100vh; 
+   
+  h1, h2, h3 {
+    text-shadow: 1px 1px 14px #26141259;
+  }
+	
+  .hero-title {
+    text-transform: uppercase;
+    font-weight: bold;
   }
 }
 
